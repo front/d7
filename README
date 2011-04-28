@@ -1,0 +1,46 @@
+----------------------------------------
+OVERVIEW
+----------------------------------------
+This is a basic drush make file which can be used to set up a Drupal 7 site without needing to download all the files and modles.
+
+----------------------------------------
+REQUIREMENTS
+----------------------------------------
+Requires drush_make (http://drupal.org/project/drush_make) and of course drush (http://drupal.org/project/drush) to work.
+
+----------------------------------------
+INSTRUCTIONS
+----------------------------------------
+The make file can be used to start any Drupal 7 project using the following workflow (assumes drush & drush_make are installed):
+
+1. Create a new repository on git hub for the project code (remember the project name for step 2&3).
+
+2. Fire up Terminal and navigate to the directory one level up from where you want your local working copy to be 
+ie. your local working copy = Users/tom/sites/front/PROJECTNAME, navigate to Users/tom/sites/front 
+DO NOT CREATE THE PROJECTNAME DIRECTORY (crush will handle that).
+
+3. Run the following command in terminal:
+drush make --force-complete drupal7.make ./PROJECTNAME
+
+NOTE: It's important the PROJECTNAME has the same name as the git repository you have created for the project you are starting.
+
+4. If it completes the command without errors you should now have a new folder with project name ie. Users/tom/sites/front/PROJECTNAME which should contain all the Drupal 7 files, a selection of modules & some extra themes.
+
+5. Next initiate git in the project directory by running the following commands in terminal:
+
+  cd PROJECTNAME
+  git init
+  git add -A
+  git commit -m 'first commit for Drupal 7 code for the PROJECTNAME project'
+  git remote add origin git@github.com:front/PROJECTNAME.git
+  git push -u origin master
+
+----------------------------------------
+MODULES & THEMES ADDED BY MAKE FILE
+----------------------------------------
+
+This is version 1 of the make file so please make suggestions if you think any modules/themes should be added or remove.
+
+Full list:
+
+TODO
