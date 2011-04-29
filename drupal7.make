@@ -53,6 +53,7 @@ projects[page_title][subdir] = contrib
 projects[pathauto][subdir] = contrib
 projects[token][subdir] = contrib
 projects[transliteration][subdir] = contrib
+projects[shadowbox][subdir] = contrib
 projects[views_bulk_operations][subdir] = contrib
 projects[panels][subdir] = contrib
 projects[rules][subdir] = contrib
@@ -88,9 +89,18 @@ projects[] = basic
   
 ; Libraries
 ; ---------
+; jquery
 libraries[jquery][download][type] = "file"
 libraries[jquery][download][url] = "https://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"
+
+; jquery UI
 libraries[jqueryui][download][type] = "file"
 libraries[jqueryui][download][url] = "https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.9/jquery-ui.min.js"
 
+; shadowbox module contains own make file so no need to download separately
+
+; tinyMCE
+libraries[tinymce][download][type] = "get"
+libraries[tinymce][download][url] = "http://downloads.sourceforge.net/project/tinymce/TinyMCE/3.3.9.2/tinymce_3_3_9_2.zip"
+libraries[tinymce][directory_name] = "tinymce"
 

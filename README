@@ -8,6 +8,8 @@ REQUIREMENTS
 ----------------------------------------
 Requires drush_make (http://drupal.org/project/drush_make) and of course drush (http://drupal.org/project/drush) to work.
 
+Use drush make 6.x-2.2 version, the 6.x-3.x-dev is NOT compatible yet.
+
 ----------------------------------------
 INSTRUCTIONS
 ----------------------------------------
