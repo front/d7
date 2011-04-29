@@ -83,12 +83,13 @@ projects[views_slideshow][download][url] = http://ftp.drupal.org/files/projects/
 projects[views_slideshow][subdir] = contrib
   
 
+
 ; Themes
 ; --------
 projects[] = genesis
 projects[] = basic
 
-  
+ 
   
 ; Libraries
 ; ---------
@@ -107,3 +108,12 @@ libraries[tinymce][download][type] = "get"
 libraries[tinymce][download][url] = "http://downloads.sourceforge.net/project/tinymce/TinyMCE/3.3.9.2/tinymce_3_3_9_2.zip"
 libraries[tinymce][directory_name] = "tinymce"
 
+
+
+; Front Base Installer Profile
+projects[front_base][type] = "profile"
+projects[front_base][download][type] = "git"
+projects[front_base][download][url] = "git://github.com/front/front_base.git"
+projects[front_base][download][branch] = "master"
+projects[front_base][directory_name] = "front_base"
+projects[front_base][destination] = "profiles"
