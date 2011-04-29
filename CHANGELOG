@@ -4,4 +4,46 @@ NEXT UPDATE INFO HERE
 --------------------------------------------------------------------------------
 24/4/2011 - Initial creation of make file for Drupal 7
 
+MODULES LIST
+
+admin
+admin_menu
+backup_migrate
+better_formats
+cck
+ctools
+content_taxonomy
+context
+date
+devel
+diff
+features
+flag
+email
+link
+imce
+i18n
+imageapi
+imce_wysiwyg
+libraries
+logintoboggan
+page_title
+pathauto
+strongarm
+token
+transliteration
+views_bulk_operations
+panels
+rules
+wysiwyg
+views
+views_slideshow
+webform
+xmlsitemap
+
+THEMES LIST
+
+basic 
+genesis
+
 --------------------------------------------------------------------------------
