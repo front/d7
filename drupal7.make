@@ -65,7 +65,7 @@ projects[wysiwyg][subdir] = contrib
 projects[views][subdir] = contrib
 projects[webform][subdir] = contrib
 projects[xmlsitemap][subdir] = contrib
-projects[variable][subdir] = contrib ;requirement of i18n module
+projects[variable][subdir] = contrib
 
 ; following modules as no stable reccommended version yet so need version stated
 ; when these have stable versions they can go above with the rest
