@@ -1,9 +1,4 @@
-; ----------------
-; Generated makefile from http://drushmake.me
-; Permanent URL: http://drushmake.me/file.php?token=4009e1c5f531
-; ----------------
-;
-; This is a working makefile - try it! Any line starting with a `;` is a comment.
+; Front.no Drupal 7 make file
   
 ; Core version
 ; ------------
