@@ -42,6 +42,7 @@ projects[devel][subdir] = contrib
 projects[diff][subdir] = contrib
 projects[features][subdir] = contrib
 projects[field_group][subdir] = contrib
+projects[field_permissions][subdir] = contrib
 projects[email][subdir] = contrib
 projects[entity][subdir] = contrib
 projects[link][subdir] = contrib
@@ -64,23 +65,24 @@ projects[wysiwyg][subdir] = contrib
 projects[views][subdir] = contrib
 projects[webform][subdir] = contrib
 projects[xmlsitemap][subdir] = contrib
+projects[variable][subdir] = contrib ;requirement of i18n module
 
-; manually download the following modules as no stable reccommended version
+; following modules as no stable reccommended version yet so need version stated
 ; when these have stable versions they can go above with the rest
-projects[better_formats][download][url] = http://ftp.drupal.org/files/projects/better_formats-7.x-1.x-dev.tar.gz
-projects[better_formats][subdir] = contrib
-projects[cck][download][url] = http://ftp.drupal.org/files/projects/cck-7.x-2.x-dev.tar.gz
-projects[cck][subdir] = contrib
-projects[content_taxonomy][download][url] = http://ftp.drupal.org/files/projects/content_taxonomy-7.x-1.x-dev.tar.gz
-projects[content_taxonomy][subdir] = contrib
-projects[flag][download][url] = http://ftp.drupal.org/files/projects/flag-7.x-2.0-beta5.tar.gz
+projects[references][subdir] = contrib
+projects[references][version] = 2.x-dev
+
 projects[flag][subdir] = contrib
-projects[i18n][download][url] = http://ftp.drupal.org/files/projects/i18n-7.x-1.0-beta4.tar.gz
+projects[flag][version] = 2.0-beta5
+
 projects[i18n][subdir] = contrib
-projects[strongarm][download][url] = http://ftp.drupal.org/files/projects/strongarm-7.x-2.0-beta2.tar.gz
+projects[i18n][version] = 1.0-beta4
+
 projects[strongarm][subdir] = contrib
-projects[views_slideshow][download][url] = http://ftp.drupal.org/files/projects/views_slideshow-7.x-3.0-alpha1.tar.gz
+projects[strongarm][version] = 2.0-beta2
+
 projects[views_slideshow][subdir] = contrib
+projects[views_slideshow][version] = 3.0-alpha1
   
 
 
