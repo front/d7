@@ -37,6 +37,11 @@ NOTE: It's important PROJECTNAME is the same as the name of the git repository y
   git remote add origin git@github.com:front/PROJECTNAME.git
   git push -u origin master
 
+6. Install Drupal. On the installation screen (install.php) you should see a new installer profile called "Front Base D7" select that and continue.
+Front Base D7 will enable a selection of commonly used modules like views, features etc as well as other set up tasks see README in the github project https://github.com/front/front_base/blob/master/README.
+
+This will give you a local development environment & github repo. To deploy this to a live development server you should git clone the new repo onto the live server in the site root and then copy the local database dump or simply run the Front Base D7 installer on the live server.
+
 ----------------------------------------
 MODULES & THEMES ADDED BY MAKE FILE
 ----------------------------------------
@@ -48,10 +53,7 @@ MODULES
 admin
 admin_menu
 backup_migrate
-better_formats
-cck
 ctools
-content_taxonomy
 context
 date
 devel
@@ -71,8 +73,10 @@ pathauto
 strongarm
 token
 transliteration
+variable
 views_bulk_operations
 panels
+references
 rules
 wysiwyg
 views
