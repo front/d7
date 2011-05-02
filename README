@@ -37,10 +37,23 @@ NOTE: It's important PROJECTNAME is the same as the name of the git repository y
   git remote add origin git@github.com:front/PROJECTNAME.git
   git push -u origin master
 
+
 6. Install Drupal. On the installation screen (install.php) you should see a new installer profile called "Front Base D7" select that and continue.
 Front Base D7 will enable a selection of commonly used modules like views, features etc as well as other set up tasks see README in the github project https://github.com/front/front_base/blob/master/README.
 
-This will give you a local development environment & github repo. To deploy this to a live development server you should git clone the new repo onto the live server in the site root and then copy the local database dump or simply run the Front Base D7 installer on the live server.
+This will give you a local development environment & github repo. To deploy this to a live development server you should git clone the new repo onto the live server in the site root and then copy the local database dump or simply run the Front Base D7 installer on the live server (see INSTALL DRUPAL WITH DRUSH below).
+
+7. Before making any further commits to git you should create a git ignore file to ignore the files directory & settings.php file.
+See: http://help.github.com/git-ignore/
+
+
+OTHER NOTES
+
+* INSTALL DRUPAL WITH DRUSH
+Install Drupal with the front_base install profile using crush (this will create your files & settings.php file automatically):
+drush site-install front_base --account-name=DRUPAL_USERNAME --account-pass=DRUPAL_PASSWORD --db-url=mysql://MYSQL_USERNAME:MYSQL_PASSWORD@localhost/DATABASE_NAME
+
+
 
 ----------------------------------------
 MODULES & THEMES ADDED BY MAKE FILE

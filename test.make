@@ -30,17 +30,6 @@ api = 2
 projects[drupal][version] = 7
 
 
-projects[references][subdir] = contrib
-projects[references][version] = 2.x-dev
-
-projects[flag][subdir] = contrib
-projects[flag][version] = 2.0-beta5
-
-projects[i18n][subdir] = contrib
-projects[i18n][version] = 1.0-beta4
-
-projects[strongarm][subdir] = contrib
-projects[strongarm][version] = 2.0-beta2
-
-projects[views_slideshow][subdir] = contrib
-projects[views_slideshow][version] = 3.0-alpha1
+libraries[jquery.cycle][download][type] = "get"
+libraries[jquery.cycle][download][url] = "http://jquery.malsup.com/cycle/release/jquery.cycle.zip?v2.99"
+libraries[jquery.cycle][directory_name] = "jquery.cycle"

@@ -98,6 +98,11 @@ libraries[jquery][download][url] = "https://ajax.googleapis.com/ajax/libs/jquery
 libraries[jqueryui][download][type] = "file"
 libraries[jqueryui][download][url] = "https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.9/jquery-ui.min.js"
 
+; jquery cycle 
+libraries[jquery.cycle][download][type] = "get"
+libraries[jquery.cycle][download][url] = "http://jquery.malsup.com/cycle/release/jquery.cycle.zip?v2.99"
+libraries[jquery.cycle][directory_name] = "jquery.cycle"
+
 ; shadowbox module contains own make file so no need to download separately
 
 ; tinyMCE
