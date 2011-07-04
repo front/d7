@@ -30,6 +30,7 @@ projects[drupal][version] = 7
 ; --------
 projects[admin][subdir] = contrib
 projects[admin_menu][subdir] = contrib
+projects[addanother][subdir] = contrib
 projects[ctools][subdir] = contrib
 projects[context][subdir] = contrib
 projects[date][subdir] = contrib
@@ -41,11 +42,15 @@ projects[field_permissions][subdir] = contrib
 projects[email][subdir] = contrib
 projects[entity][subdir] = contrib
 projects[link][subdir] = contrib
+projects[menu_block][subdir] = contrib
+projects[module_filter][subdir] = contrib
 projects[imce][subdir] = contrib
 projects[backup_migrate][subdir] = contrib
+projects[insert][subdir] = contrib
 projects[imageapi][subdir] = contrib
 projects[imce_wysiwyg][subdir] = contrib
 projects[libraries][subdir] = contrib
+projects[l10n_update][subdir] = contrib
 projects[logintoboggan][subdir] = contrib
 projects[page_title][subdir] = contrib
 projects[pathauto][subdir] = contrib
@@ -65,20 +70,22 @@ projects[variable][subdir] = contrib
 ; following modules as no stable reccommended version yet so need version stated
 ; when these have stable versions they can go above with the rest
 projects[references][subdir] = contrib
-projects[references][version] = 2.x-dev
+; projects[references][version] = 2.x-dev
 
 projects[flag][subdir] = contrib
 projects[flag][version] = 2.0-beta5
 
 projects[i18n][subdir] = contrib
-projects[i18n][version] = 1.0-beta4
+projects[i18n][version] = 1.0-beta7
 
 projects[strongarm][subdir] = contrib
 projects[strongarm][version] = 2.0-beta2
 
 projects[views_slideshow][subdir] = contrib
 projects[views_slideshow][version] = 3.0-alpha1
-  
+
+projects[nice_menus][subdir] = contrib
+projects[nice_menus][version] = 2.x-dev
 
 
 ; Themes

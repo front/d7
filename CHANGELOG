@@ -1,11 +1,12 @@
 --------------------------------------------------------------------------------
-NEXT UPDATE INFO HERE
+NEXT UPDATE INFO HERE - Only for significant changes
 
 --------------------------------------------------------------------------------
 24/4/2011 - Initial creation of make file for Drupal 7
 
 MODULES LIST
 
+addanother
 admin
 admin_menu
 backup_migrate
@@ -27,6 +28,11 @@ imageapi
 imce_wysiwyg
 libraries
 logintoboggan
+nice_menus
+menu_block
+module_filter
+l10n_update
+insert
 page_title
 pathauto
 strongarm
