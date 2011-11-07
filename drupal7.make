@@ -36,6 +36,7 @@ projects[context][subdir] = contrib
 projects[date][subdir] = contrib
 projects[devel][subdir] = contrib
 projects[diff][subdir] = contrib
+projects[ds][subdir] = contrib
 projects[features][subdir] = contrib
 projects[field_group][subdir] = contrib
 projects[field_permissions][subdir] = contrib
@@ -66,6 +67,9 @@ projects[views][subdir] = contrib
 projects[webform][subdir] = contrib
 projects[xmlsitemap][subdir] = contrib
 projects[variable][subdir] = contrib
+projects[workbench][subdir] = contrib
+projects[workbench_access][subdir] = contrib
+projects[workbench_moderation][subdir] = contrib
 
 ; following modules as no stable reccommended version yet so need version stated
 ; when these have stable versions they can go above with the rest
