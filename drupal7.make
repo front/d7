@@ -25,14 +25,13 @@ api = 2
 projects[drupal][version] = 7
 
   
-  
 ; Modules
 ; --------
 projects[admin][subdir] = contrib
 projects[admin_menu][subdir] = contrib
-projects[addanother][subdir] = contrib
 projects[ctools][subdir] = contrib
 projects[context][subdir] = contrib
+projects[colorbox][subdir] = contrib
 projects[date][subdir] = contrib
 projects[devel][subdir] = contrib
 projects[diff][subdir] = contrib
@@ -44,60 +43,49 @@ projects[email][subdir] = contrib
 projects[entity][subdir] = contrib
 projects[link][subdir] = contrib
 projects[menu_block][subdir] = contrib
-projects[module_filter][subdir] = contrib
-projects[imce][subdir] = contrib
+projects[media][subdir] = contrib
 projects[backup_migrate][subdir] = contrib
 projects[insert][subdir] = contrib
 projects[imageapi][subdir] = contrib
-projects[imce_wysiwyg][subdir] = contrib
 projects[libraries][subdir] = contrib
-projects[l10n_update][subdir] = contrib
-projects[logintoboggan][subdir] = contrib
-projects[page_title][subdir] = contrib
+projects[i18n][subdir] = contrib
 projects[pathauto][subdir] = contrib
 projects[token][subdir] = contrib
 projects[transliteration][subdir] = contrib
-projects[shadowbox][subdir] = contrib
 projects[views_bulk_operations][subdir] = contrib
 projects[panels][subdir] = contrib
+projects[references][subdir] = contrib
 projects[rules][subdir] = contrib
-projects[imce_wysiwyg][subdir] = contrib
 projects[wysiwyg][subdir] = contrib
 projects[views][subdir] = contrib
 projects[webform][subdir] = contrib
 projects[xmlsitemap][subdir] = contrib
 projects[variable][subdir] = contrib
+projects[views_slideshow][subdir] = contrib
 projects[workbench][subdir] = contrib
 projects[workbench_access][subdir] = contrib
 projects[workbench_moderation][subdir] = contrib
 
 ; following modules as no stable reccommended version yet so need version stated
 ; when these have stable versions they can go above with the rest
-projects[references][subdir] = contrib
-; projects[references][version] = 2.x-dev
 
 projects[flag][subdir] = contrib
-projects[flag][version] = 2.0-beta5
+projects[flag][version] = 2.0-beta6
 
-projects[i18n][subdir] = contrib
-projects[i18n][version] = 1.0-beta7
+projects[media_browser_plus][subdir] = contrib
+projects[media_browser_plus][version] = 1.x-dev
 
 projects[strongarm][subdir] = contrib
-projects[strongarm][version] = 2.0-beta2
+projects[strongarm][version] = 2.0-beta5
 
-projects[views_slideshow][subdir] = contrib
-projects[views_slideshow][version] = 3.0-alpha1
-
-projects[nice_menus][subdir] = contrib
-projects[nice_menus][version] = 2.x-dev
+projects[file_entity][subdir] = contrib
+projects[file_entity][version] = 2.x-dev
 
 
 ; Themes
 ; --------
-projects[] = genesis
-projects[] = basic
+projects[] = omega
 
- 
   
 ; Libraries
 ; ---------
@@ -114,13 +102,15 @@ libraries[jquery.cycle][download][type] = "get"
 libraries[jquery.cycle][download][url] = "http://jquery.malsup.com/cycle/release/jquery.cycle.zip?v2.99"
 libraries[jquery.cycle][directory_name] = "jquery.cycle"
 
-; shadowbox module contains own make file so no need to download separately
-
 ; tinyMCE
 libraries[tinymce][download][type] = "get"
 libraries[tinymce][download][url] = "http://downloads.sourceforge.net/project/tinymce/TinyMCE/3.3.9.2/tinymce_3_3_9_2.zip"
 libraries[tinymce][directory_name] = "tinymce"
 
+; colorbox
+libraries[jquery.cycle][download][type] = "get"
+libraries[jquery.cycle][download][url] = "http://jacklmoore.com/colorbox/colorbox.zip"
+libraries[jquery.cycle][directory_name] = "colorbox"
 
 
 ; Front Base Installer Profile
