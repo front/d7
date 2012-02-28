@@ -29,9 +29,11 @@ projects[drupal][version] = 7
 ; --------
 projects[admin][subdir] = contrib
 projects[admin_menu][subdir] = contrib
+projects[aloha][subdir] = contrib
 projects[ctools][subdir] = contrib
 projects[context][subdir] = contrib
 projects[colorbox][subdir] = contrib
+projects[coffee][subdir] = contrib
 projects[date][subdir] = contrib
 projects[devel][subdir] = contrib
 projects[diff][subdir] = contrib
@@ -84,7 +86,13 @@ projects[file_entity][version] = 2.x-dev
 
 ; Themes
 ; --------
-projects[] = omega
+projects[] = sasson
+
+projects[frontstrap][type] = "theme"
+projects[frontstrap][download][type] = "git"
+projects[frontstrap][download][url] = "git://github.com/front/frontstrap.git"
+projects[frontstrap][download][branch] = "master"
+projects[frontstrap][directory_name] = "frontstrap"
 
   
 ; Libraries
