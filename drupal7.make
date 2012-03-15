@@ -38,6 +38,7 @@ projects[date][subdir] = contrib
 projects[devel][subdir] = contrib
 projects[diff][subdir] = contrib
 projects[ds][subdir] = contrib
+projects[entitycache][subdir] = contrib
 projects[features][subdir] = contrib
 projects[field_group][subdir] = contrib
 projects[field_permissions][subdir] = contrib
