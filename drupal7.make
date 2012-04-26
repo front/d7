@@ -121,6 +121,10 @@ libraries[jquery.cycle][download][type] = "get"
 libraries[jquery.cycle][download][url] = "http://jacklmoore.com/colorbox/colorbox.zip"
 libraries[jquery.cycle][directory_name] = "colorbox"
 
+; solr
+libraries[SolrPhpClient][download][type] = "get"
+libraries[SolrPhpClient][download][url] = "http://solr-php-client.googlecode.com/files/SolrPhpClient.r60.2011-05-04.zip"
+libraries[SolrPhpClient][directory_name] = "SolrPhpClient"
 
 ; Front Base Installer Profile
 projects[front_base][type] = "profile"
