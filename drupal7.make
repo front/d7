@@ -50,6 +50,7 @@ projects[media][subdir] = contrib
 projects[backup_migrate][subdir] = contrib
 projects[insert][subdir] = contrib
 projects[imageapi][subdir] = contrib
+projects[pjax][pjax] = contrib
 projects[libraries][subdir] = contrib
 projects[i18n][subdir] = contrib
 projects[pathauto][subdir] = contrib
@@ -110,6 +111,12 @@ libraries[jqueryui][download][url] = "https://ajax.googleapis.com/ajax/libs/jque
 libraries[jquery.cycle][download][type] = "get"
 libraries[jquery.cycle][download][url] = "http://jquery.malsup.com/cycle/release/jquery.cycle.zip?v2.99"
 libraries[jquery.cycle][directory_name] = "jquery.cycle"
+
+; jquery pjax 
+libraries[jquery-pjax][download][type] = "git"
+libraries[jquery-pjax][download][url] = "git://github.com/defunkt/jquery-pjax.git"
+libraries[jquery-pjax][download][branch] = "master"
+libraries[jquery-pjax][directory_name] = "jquery-pjax"
 
 ; tinyMCE
 libraries[tinymce][download][type] = "get"
