@@ -1,11 +1,11 @@
 
 ## Overview
-This is a basic drush make file which can be used to set up a Drupal 7 site without needing to download all the files and modules. List of prjects: https://github.com/front/d7/blob/master/drupal7.make
+Set up a Drupal 7 site without needing to download all the files and modules. List of projects: https://github.com/front/d7/blob/master/drupal7.make
 
 ## Requirements
 Requires drush_make (http://drupal.org/project/drush_make) and of course drush (http://drupal.org/project/drush) to work.
 
-## Make instructions
+## Drush make instructions
 
     drush make --force-complete drupal7.make ./PROJECTNAME
 
@@ -31,7 +31,7 @@ Your next commit should probably be a .gitignore containing stuff like:
     _MACOSX
 
 ## Install Drupal
-On the installation screen (install.php) you should see a new installer profile called "Front Base D7" select that and continue. See README in the github project https://github.com/front/front_base/blob/master/README.
+On the installation screen select "Front Base D7" and continue. See https://github.com/front/front_base for more info.
 
 ## Other notes
 ### Install Drupal using drush
