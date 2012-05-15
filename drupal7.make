@@ -34,6 +34,7 @@ projects[ctools][subdir] = contrib
 projects[context][subdir] = contrib
 projects[colorbox][subdir] = contrib
 projects[coffee][subdir] = contrib
+projects[content_menu][subdir] = contrib
 projects[date][subdir] = contrib
 projects[devel][subdir] = contrib
 projects[diff][subdir] = contrib
@@ -50,8 +51,9 @@ projects[media][subdir] = contrib
 projects[backup_migrate][subdir] = contrib
 projects[insert][subdir] = contrib
 projects[imageapi][subdir] = contrib
-projects[pjax][pjax] = contrib
+projects[pjax][subdir] = contrib
 projects[libraries][subdir] = contrib
+projects[module_filter][subdir] = contrib
 projects[i18n][subdir] = contrib
 projects[pathauto][subdir] = contrib
 projects[token][subdir] = contrib
@@ -60,6 +62,7 @@ projects[views_bulk_operations][subdir] = contrib
 projects[panels][subdir] = contrib
 projects[references][subdir] = contrib
 projects[rules][subdir] = contrib
+projects[strongarm][subdir] = contrib
 projects[wysiwyg][subdir] = contrib
 projects[views][subdir] = contrib
 projects[webform][subdir] = contrib
@@ -74,13 +77,10 @@ projects[workbench_moderation][subdir] = contrib
 ; when these have stable versions they can go above with the rest
 
 projects[flag][subdir] = contrib
-projects[flag][version] = 2.0-beta6
+projects[flag][version] = 2.0-beta7
 
 projects[media_browser_plus][subdir] = contrib
 projects[media_browser_plus][version] = 1.x-dev
-
-projects[strongarm][subdir] = contrib
-projects[strongarm][version] = 2.0-beta5
 
 projects[file_entity][subdir] = contrib
 projects[file_entity][version] = 2.x-dev
