@@ -7,7 +7,9 @@ Requires drush_make (http://drupal.org/project/drush_make) and of course drush (
 
 ## Drush make instructions
 
-    drush make --force-complete drupal7.make ./PROJECTNAME
+    git clone git@github.com:front/d7.git
+    cd d7/
+    drush make --force-complete drupal7.make ../PROJECTNAME
 
 NOTE: It's important PROJECTNAME is the same as the name of the git repository you have created for the project.
 
