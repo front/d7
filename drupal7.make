@@ -82,7 +82,7 @@ projects[workbench_moderation][subdir] = contrib
 ; when these have stable versions they can go above with the rest
 
 projects[flag][subdir] = contrib
-projects[flag][version] = 2.0-beta7
+projects[flag][version] = 2.0-beta6
 
 projects[media_browser_plus][subdir] = contrib
 projects[media_browser_plus][version] = 1.x-dev
