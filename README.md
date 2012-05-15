@@ -40,3 +40,6 @@ On the installation screen select "Front Base D7" and continue. See https://gith
 Install Drupal with the front_base install profile using drush (this will create your files & settings.php file automatically):
 
     drush site-install front_base --account-name=DRUPAL_USERNAME --account-pass=DRUPAL_PASSWORD --db-url=mysql://MYSQL_USERNAME:MYSQL_PASSWORD@localhost/DATABASE_NAME
+
+## Todos
+- Dl language files for TinyMCE (ask Thor about this)
