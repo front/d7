@@ -41,5 +41,9 @@ Install Drupal with the front_base install profile using drush (this will create
 
     drush site-install front_base --account-name=DRUPAL_USERNAME --account-pass=DRUPAL_PASSWORD --db-url=mysql://MYSQL_USERNAME:MYSQL_PASSWORD@localhost/DATABASE_NAME
 
+Example:
+
+    drush site-install front_base --account-name=webadmin --account-pass=test --db-url=mysql://root:root@localhost/testdb
+
 ## Todos
 - Dl language files for TinyMCE (ask Thor about this)
