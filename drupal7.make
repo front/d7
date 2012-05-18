@@ -67,6 +67,7 @@ projects[rules][subdir] = contrib
 projects[strongarm][subdir] = contrib
 projects[search_api][subdir] = contrib
 projects[search_api_solr][subdir] = contrib
+projects[security_review][subdir] = contrib
 projects[wysiwyg][subdir] = contrib
 projects[views][subdir] = contrib
 projects[webform][subdir] = contrib
