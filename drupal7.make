@@ -39,8 +39,10 @@ projects[date][subdir] = contrib
 projects[devel][subdir] = contrib
 projects[diff][subdir] = contrib
 projects[ds][subdir] = contrib
+projects[dummyimage][subdir] = contrib
 projects[entitycache][subdir] = contrib
 projects[features][subdir] = contrib
+projects[fences][subdir] = contrib
 projects[field_group][subdir] = contrib
 projects[field_permissions][subdir] = contrib
 projects[google_analytics][subdir] = contrib
@@ -95,12 +97,20 @@ projects[file_entity][version] = 2.x-dev
 ; Themes
 ; --------
 projects[] = sasson
+projects[] = omega
+projects[] = twitter_bootstrap
 
 projects[frontstrap][type] = "theme"
 projects[frontstrap][download][type] = "git"
 projects[frontstrap][download][url] = "git://github.com/front/frontstrap.git"
 projects[frontstrap][download][branch] = "master"
 projects[frontstrap][directory_name] = "frontstrap"
+
+projects[frontstrap][type] = "theme"
+projects[frontstrap][download][type] = "git"
+projects[frontstrap][download][url] = "git://github.com/front/strap.git"
+projects[frontstrap][download][branch] = "master"
+projects[frontstrap][directory_name] = "strap"
 
   
 ; Libraries
