@@ -65,6 +65,7 @@ projects[transliteration][subdir] = contrib
 projects[views_bulk_operations][subdir] = contrib
 projects[panels][subdir] = contrib
 projects[references][subdir] = contrib
+projects[reroute_email][subdir] = contrib
 projects[rules][subdir] = contrib
 projects[strongarm][subdir] = contrib
 projects[search_api][subdir] = contrib
