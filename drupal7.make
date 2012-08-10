@@ -50,6 +50,7 @@ projects[google_analytics_reports][subdir] = contrib
 projects[email][subdir] = contrib
 projects[entity][subdir] = contrib
 projects[link][subdir] = contrib
+projects[lazyloader][subdir] = contrib
 projects[menu_block][subdir] = contrib
 projects[media][subdir] = contrib
 projects[backup_migrate][subdir] = contrib
@@ -86,13 +87,10 @@ projects[workbench_moderation][subdir] = contrib
 ; when these have stable versions they can go above with the rest
 
 projects[flag][subdir] = contrib
-projects[flag][version] = 2.0-beta6
+projects[flag][version] = 2.0-beta8
 
 projects[media_browser_plus][subdir] = contrib
-projects[media_browser_plus][version] = 1.x-dev
-
-projects[file_entity][subdir] = contrib
-projects[file_entity][version] = 2.x-dev
+projects[media_browser_plus][version] = 7.x-1.0-beta3
 
 
 ; Themes

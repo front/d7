@@ -11,7 +11,7 @@ Requires drush_make (http://drupal.org/project/drush_make) and of course drush (
     cd d7/
     drush make --force-complete drupal7.make ../PROJECTNAME
 
-NOTE: It's important PROJECTNAME is the same as the name of the git repository you have created for the project.
+PROJECTNAME = same as the name of the git repository you have created for the project.
 
 ## Git instructions
 
@@ -43,7 +43,7 @@ Install Drupal with the front_base install profile using drush (this will create
 
 Example:
 
-    drush site-install front_base --account-name=webadmin --account-pass=test --db-url=mysql://root:root@localhost/testdb
+    drush site-install front_base --locale=en --account-name=webadmin --account-pass=test --db-url=mysql://root:root@localhost/testdb -y
 
 ## Todos
 - Dl language files for TinyMCE (ask Thor about this)
