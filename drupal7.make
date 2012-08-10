@@ -102,12 +102,6 @@ projects[] = twitter_bootstrap
 
 projects[frontstrap][type] = "theme"
 projects[frontstrap][download][type] = "git"
-projects[frontstrap][download][url] = "git://github.com/front/frontstrap.git"
-projects[frontstrap][download][branch] = "master"
-projects[frontstrap][directory_name] = "frontstrap"
-
-projects[frontstrap][type] = "theme"
-projects[frontstrap][download][type] = "git"
 projects[frontstrap][download][url] = "git://github.com/front/strap.git"
 projects[frontstrap][download][branch] = "master"
 projects[frontstrap][directory_name] = "strap"
@@ -115,6 +109,13 @@ projects[frontstrap][directory_name] = "strap"
   
 ; Libraries
 ; ---------
+
+; Twitter Bootstrap
+libraries[twitter_bootstrap][download][type] = "file"
+libraries[twitter_bootstrap][download][url] = "http://twitter.github.com/bootstrap/assets/bootstrap.zip"
+libraries[twitter_bootstrap][directory_name] = "bootstrap"
+libraries[twitter_bootstrap][destination] = "themes/twitter_bootstrap"
+
 ; jquery
 libraries[jquery][download][type] = "file"
 libraries[jquery][download][url] = "https://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"
