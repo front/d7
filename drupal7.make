@@ -91,7 +91,7 @@ projects[flag][subdir] = contrib
 projects[flag][version] = 2.0-beta8
 
 projects[media_browser_plus][subdir] = contrib
-projects[media_browser_plus][version] = 7.x-1.0-beta3
+projects[media_browser_plus][version] = 1.0-beta3
 
 
 ; Themes
