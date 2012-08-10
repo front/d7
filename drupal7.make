@@ -47,6 +47,7 @@ projects[field_group][subdir] = contrib
 projects[field_permissions][subdir] = contrib
 projects[google_analytics][subdir] = contrib
 projects[google_analytics_reports][subdir] = contrib
+projects[edit][subdir] = contrib
 projects[email][subdir] = contrib
 projects[entity][subdir] = contrib
 projects[link][subdir] = contrib
