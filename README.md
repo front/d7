@@ -1,4 +1,3 @@
-
 ## Overview
 Set up a Drupal 7 site without needing to download all the files and modules. List of projects: https://github.com/front/d7/blob/master/drupal7.make
 
@@ -44,6 +43,3 @@ Install Drupal with the front_base install profile using drush (this will create
 Example:
 
     drush site-install front_base --locale=en --account-name=webadmin --account-pass=test --db-url=mysql://root:root@localhost/testdb -y
-
-## Todos
-- Dl language files for TinyMCE (ask Thor about this)
