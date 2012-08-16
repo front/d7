@@ -136,8 +136,8 @@ libraries[jquery-pjax][download][branch] = "master"
 libraries[jquery-pjax][directory_name] = "jquery-pjax"
 
 ; tinyMCE
-libraries[tinymce][download][type] = "get"
-libraries[tinymce][download][url] = "http://downloads.sourceforge.net/project/tinymce/TinyMCE/3.3.9.2/tinymce_3_3_9_2.zip"
+libraries[tinymce][download][type] = "git"
+libraries[tinymce][download][url] = "git://github.com/front/tinymce.git"
 libraries[tinymce][directory_name] = "tinymce"
 
 ; colorbox
